@@ -28,14 +28,14 @@ const createInitialPosts = async () => {
   try {
     const initialUsers = [
       {
-        username: "john_doe",
+        username: "ali",
         password: "password1",
-        email: "john@example.com",
+        email: "ali@example.com",
       },
       {
-        username: "jane_smith",
+        username: "vali",
         password: "password2",
-        email: "jane@example.com",
+        email: "vali@example.com",
       },
     ];
 
@@ -43,11 +43,11 @@ const createInitialPosts = async () => {
     const initialPosts = [
       {
         message: "First post",
-        author: "John Doe",
+        author: "ali",
       },
       {
         message: "Second post",
-        author: "Jane Smith",
+        author: "vali",
       },
     ];
     await Blog.insertMany(initialPosts);
